@@ -1,0 +1,640 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-button {
+    padding: 0 0.6em;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-button-white {
+    color: #ffffff;
+}
+
+.text-button-white:hover {
+    color: #e6e6e6;
+}
+
+.text-button-blue {
+    color: #12a2da;
+}
+
+.text-button-blue:hover {
+    color: #128fc8;
+}
+
+.text-button-blue2 {
+    color: #d3e9f3;
+}
+
+.text-button-blue2:hover {
+    color: #c9dfe9;
+}
+
+.text-button-grey {
+    color: #e6e6e6;
+}
+
+.text-button-grey:hover {
+    color: #d8d8d8;
+}
+
+.text-button-green {
+    color: #70ab6c;
+}
+
+.text-button-green:hover {
+    color: #409a39;
+}
+
+.text-button-green2 {
+    color: #27d63b;
+}
+
+.text-button-green2:hover {
+    color: #22ad34;
+}
+
+.text-button-red {
+    color: #e0412e;
+}
+
+.text-button-red:hover {
+    color: #d8422f;
+}
+
+.button {
+    margin: 0.5em;
+    padding: 0.6em;
+    cursor: pointer;
+    border: 0;
+    border-radius: 0.2em;
+    font-weight: 700;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.button-gray {
+    background-color: #f1f1f1;
+    color: #000000;
+}
+
+.button-gray:hover {
+    background-color: #ebebeb;
+}
+
+.button-grey2 {
+    background-color: #c1c1c1;
+    color: #ffffff;
+}
+
+.button-grey2:hover {
+    background-color: #bababa;
+}
+
+.button-black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button-black:hover {
+    background-color: #2d2d2d;
+}
+
+.button-red {
+    background-color: #fe3722;
+    color: #ffffff;
+}
+
+.button-red:hover {
+    background-color: #ee3723;
+}
+
+.button-blue {
+    background-color: #4da6fb;
+    color: #ffffff;
+}
+
+.button-blue:hover {
+    background-color: #458bca;
+}
+
+.button-green {
+    background-color: #70ab6c;
+    color: #ffffff;
+}
+
+.button-green:hover {
+    background-color: #79b475;
+}
+
+.button-purple {
+    background-color: #d191d2;
+    color: #ffffff;
+}
+
+.button-purple:hover {
+    background-color: #c988ca;
+}
+
+.button-yellow {
+    background-color: #ec9e07;
+    color: #ffffff;
+}
+
+.button-yellow:hover {
+    background-color: #d88b07;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-around {
+    justify-content: space-around;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-items-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-04 {
+    padding: 0.4em;
+}
+
+.p-1 {
+    padding: 1em;
+}
+
+.p-r-2 {
+    padding-right: 2em;
+}
+
+.m-1 {
+    margin: 1em;
+}
+
+.mr-02 {
+    margin-right: 0.2em;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.mb-1 {
+    margin-bottom: 1em !important;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.ml-1px {
+    margin-left: 1px;
+}
+
+.p-04 {
+    padding: 0.4em;
+}
+
+.p-r-2 {
+    padding-right: 2em;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.ml-1 {
+    margin-left: 1em;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.color-red {
+    color: #fe3722;
+}
+
+.color-yellow {
+    color: #ffb604;
+}
+
+.color-orange {
+    color: #ff7617;
+}
+
+.color-green {
+    color: #70ab6c;
+}
+
+.color-green2 {
+    color: #3db93b;
+}
+
+.color-blue {
+    color: #438af1;
+}
+
+.color-purple {
+    color: #b332bf;
+}
+
+.color-grey {
+    color: #b3b3b3;
+}
+
+.color-grey2 {
+    color: #888888;
+}
+
+.bg-red {
+    background-color: #d8362c;
+}
+
+.bg-green {
+    background-color: #3cb12a;
+}
+
+.bg-light-green {
+    background-color: #cfead2;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-yellow {
+    background-color: #fff05b;
+}
+
+.bg-aqua {
+    background-color: #7fdbff;
+}
+
+.bg-gray {
+    background-color: #e3e6ea;
+}
+
+.bg-gray2 {
+    background-color: #f1f2f3;
+}
+
+.selection-green {
+    background-color: #3db93b;
+    color: #ffffff;
+    padding: 0.1em;
+    border-radius: 0.1em;
+}
+
+.selection-red {
+    background-color: #d8362c;
+    color: #ffffff;
+    padding: 0.1em;
+    border-radius: 0.1em;
+}
+
+.disconnected {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.substring {
+    color: #b8b8b8;
+}
+
+.substring2 {
+    color: #9e9e9e;
+}
+
+input[type=checkbox].css-checkbox {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+    display: inline-block;
+    height: 1em;
+    line-height: 1em;
+    padding-left: 1.5em;
+    font-size: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 1em;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-position: 0 -1em;
+}
+
+label.css-label {
+    background-image: url(/checkbox.png);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.swal-red-button {
+    background-color: #e0412e !important;
+}
+
+.swal-red-button:hover {
+    background-color: #d8422f !important;
+}
+
+.swal-green-button {
+    background-color: #70ab6c !important;
+}
+
+.swal-green-button:hover {
+    background-color: #79b475 !important;
+}
+
+.swal-blue-button {
+    background-color: #71aee8 !important;
+}
+
+.swal-blue-button:hover {
+    background-color: #72a7e2 !important;
+}
+
+.swal-button:focus {
+    box-shadow: none !important;
+}
+
+.swal-modal {
+    font-size: 1vw;
+    width: 30em !important;
+    margin-top: -10em !important;
+    border-radius: 1em;
+}
+
+.swal-content {
+    font-size: 1.5em;
+}
+
+.swal-text {
+    font-size: 2em;
+    padding: 0 1em;
+}
+
+.swal-button {
+    font-size: 1.5em;
+    padding: 0.9em 1.9em;
+    border-radius: 0.4em;
+}
+
+.swal-footer {
+    text-align: center !important;
+}
+
+.w1 {
+    width: 1em;
+}
+
+.w2 {
+    width: 2em;
+}
+
+.w3 {
+    width: 3em;
+}
+
+.w4 {
+    width: 4em;
+}
+
+.w5 {
+    width: 5em;
+}
+
+.w6 {
+    width: 6em;
+}
+
+.w7 {
+    width: 7em;
+}
+
+.w8 {
+    width: 8em;
+}
+
+.w9 {
+    width: 9em;
+}
+
+.w10 {
+    width: 10em;
+}
+
+.w11 {
+    width: 11em;
+}
+
+.w12 {
+    width: 12em;
+}
+
+.w13 {
+    width: 13em;
+}
+
+.w14 {
+    width: 14em;
+}
+
+.w15 {
+    width: 15em;
+}
+
+.w16 {
+    width: 16em;
+}
+
+.w17 {
+    width: 17em;
+}
+
+.w18 {
+    width: 18em;
+}
+
+.w19 {
+    width: 19em;
+}
+
+.w20 {
+    width: 20em;
+}
+
+.w22 {
+    width: 22em;
+}
+
+.w25 {
+    width: 25em;
+}
+
+.w26 {
+    width: 26em;
+}
+
+.w27 {
+    width: 27em;
+}
+
+.w28 {
+    width: 28em;
+}
+
+.w30 {
+    width: 30em;
+}
+
+.w35 {
+    width: 35em;
+}
+
+.w60 {
+    width: 60em;
+}
+
+.w70 {
+    width: 70em;
+}
+
+.w80 {
+    width: 80em;
+}
+
+.w90 {
+    width: 90em;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.font-08 {
+    font-size: 0.8em
+}
+
+.font-09 {
+    font-size: 0.9em
+}
+
+.font-1_3 {
+    font-size: 1.3em
+}
+
+.no-underline {
+    text-decoration: none
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.underline-dotted {
+    background: linear-gradient(to right, #333 40%, rgba(255, 255, 255, 0) 20%) repeat-x bottom;
+    background-size: 2px 1px;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #e3e6ea;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.odd-gray:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+
+.even-gray:nth-child(even) {
+    background-color: #f6f6f6;
+}
