@@ -638,3 +638,8 @@ label.css-label {
 .even-gray:nth-child(even) {
     background-color: #f6f6f6;
 }
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
