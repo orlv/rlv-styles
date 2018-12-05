@@ -2,6 +2,14 @@
     cursor: pointer;
 }
 
+.cursor-grab {
+    cursor: grab;
+}
+
+.cursor-grabbing {
+    cursor: grabbing;
+}
+
 .text-button {
     padding: 0 0.6em;
     cursor: pointer;
@@ -248,6 +256,10 @@
     margin-top: 1em;
 }
 
+.color-white {
+    color: #ffffff;
+}
+
 .color-red {
     color: #fe3722;
 }
@@ -446,126 +458,162 @@ label.css-label {
 
 .w1 {
     width: 1em;
+    min-width: 1em;
 }
 
 .w2 {
     width: 2em;
+    min-width: 2em;
 }
 
 .w3 {
     width: 3em;
+    min-width: 3em;
 }
 
 .w4 {
     width: 4em;
+    min-width: 4em;
 }
 
 .w5 {
     width: 5em;
+    min-width: 5em;
 }
 
 .w6 {
     width: 6em;
+    min-width: 6em;
 }
 
 .w7 {
     width: 7em;
+    min-width: 7em;
 }
 
 .w8 {
     width: 8em;
+    min-width: 8em;
 }
 
 .w9 {
     width: 9em;
+    min-width: 9em;
 }
 
 .w10 {
     width: 10em;
+    min-width: 10em;
 }
 
 .w11 {
     width: 11em;
+    min-width: 11em;
 }
 
 .w12 {
     width: 12em;
+    min-width: 12em;
 }
 
 .w13 {
     width: 13em;
+    min-width: 13em;
 }
 
 .w14 {
     width: 14em;
+    min-width: 14em;
 }
 
 .w15 {
     width: 15em;
+    min-width: 15em;
 }
 
 .w16 {
     width: 16em;
+    min-width: 16em;
 }
 
 .w17 {
     width: 17em;
+    min-width: 17em;
 }
 
 .w18 {
     width: 18em;
+    min-width: 18em;
 }
 
 .w19 {
     width: 19em;
+    min-width: 19em;
 }
 
 .w20 {
     width: 20em;
+    min-width: 20em;
 }
 
 .w22 {
     width: 22em;
+    min-width: 22em;
+}
+
+.w24 {
+    width: 24em;
+    min-width: 24em;
 }
 
 .w25 {
     width: 25em;
+    min-width: 25em;
 }
 
 .w26 {
     width: 26em;
+    min-width: 26em;
 }
 
 .w27 {
     width: 27em;
+    min-width: 27em;
 }
 
 .w28 {
     width: 28em;
+    min-width: 28em;
 }
 
 .w30 {
     width: 30em;
+    min-width: 30em;
 }
 
 .w35 {
     width: 35em;
+    min-width: 35em;
 }
 
 .w60 {
     width: 60em;
+    min-width: 60em;
 }
 
 .w70 {
     width: 70em;
+    min-width: 70em;
 }
 
 .w80 {
     width: 80em;
+    min-width: 80em;
 }
 
 .w90 {
     width: 90em;
+    min-width: 90em;
 }
 
 .center {
@@ -592,6 +640,10 @@ label.css-label {
     white-space: nowrap;
 }
 
+.font-05 {
+    font-size: 0.5em;
+}
+
 .font-08 {
     font-size: 0.8em
 }
@@ -600,8 +652,16 @@ label.css-label {
     font-size: 0.9em
 }
 
+.font-1_1 {
+    font-size: 1.1em;
+}
+
 .font-1_3 {
     font-size: 1.3em
+}
+
+.font-2 {
+    font-size: 2em;
 }
 
 .no-underline {
@@ -644,4 +704,63 @@ label.css-label {
 .ellipsis {
     text-overflow: ellipsis;
     overflow: hidden;
+}
+
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:after {
+    opacity: 0;
+    pointer-events: none;
+    font-weight: normal !important;
+    font-style: normal !important;
+    text-shadow: none !important;
+    background: #ffffff;
+    color: #000000;
+    border: #d2d2d2 1px solid;
+    border-radius: 0.3em;
+    content: attr(data-tooltip);
+    padding: 0.5em 1em;
+    position: absolute;
+    z-index: 20;
+}
+
+[data-tooltip]:hover:after {
+    opacity: 1;
+}
+
+[data-tooltip][data-tooltip-type="top"]:after {
+    transform: translate(-50%, 0);
+    transform-origin: top;
+    margin-bottom: 1px;
+    left: 50%;
+    bottom: 100%;
+}
+
+[data-tooltip][data-tooltip-type='bottom']:after {
+    transform: translate(-50%, 0);
+    margin-top: 1px;
+    top: 100%;
+    left: 50%;
+}
+
+[data-tooltip][data-tooltip-type='right']:after {
+    transform: translate(0, -50%);
+    margin-left: 1px;
+    top: 50%;
+    left: 100%;
+}
+
+[data-tooltip][data-tooltip-type='left']:after {
+    transform: translate(0, -50%);
+    margin-right: 1px;
+    top: 50%;
+    right: 100%;
+}
+
+[data-tooltip][data-tooltip-type='over']:after {
+    transform: translate(-50%, 0);
+    bottom: -50%;
+    left: 50%;
 }
