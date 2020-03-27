@@ -784,3 +784,7 @@ label.css-label {
 .no-select {
     user-select: none;
 }
+
+.select-all {
+    user-select: all;
+}
